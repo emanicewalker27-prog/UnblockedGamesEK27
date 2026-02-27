@@ -3,25 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unblocked Nexus</title>
+    <title>CalcStudy</title>
   </head>
   <body>
     <div id="root">
       <div id="loading-screen" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif; color: #666;">
-        <div style="margin-bottom: 20px;">Loading Unblocked Nexus...</div>
+        <div style="margin-bottom: 20px;">Loading Study Resources...</div>
         <div id="error-display" style="color: #ef4444; font-size: 12px; max-width: 80%; text-align: center;"></div>
       </div>
     </div>
-    <script>
-      window.onerror = function(msg, url, lineNo, columnNo, error) {
-        var display = document.getElementById('error-display');
-        if (display) {
-          display.innerHTML = 'Error: ' + msg + '<br>at ' + url + ':' + lineNo;
-        }
-        return false;
-      };
-    </script>
-    <script type="module" src="./src/main.jsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
