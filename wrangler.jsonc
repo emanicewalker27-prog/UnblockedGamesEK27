@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "math-archive-7733",
+  "name": "math-archive-7721",
   "compatibility_date": "2025-09-27",
   "observability": {
     "enabled": true
